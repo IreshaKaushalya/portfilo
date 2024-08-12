@@ -266,7 +266,8 @@
 
 /* Adjust body padding for the fixed navbar */
 body {
-    padding-top: 70px;
+    padding-top: 150px;
+  
 }
 
 /* Optional: Customize active link color for better visibility */
