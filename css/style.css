@@ -253,4 +253,24 @@
   height: 100%;
   object-fit: cover; /* Ensure the image covers the container */
 }
+/* Default light navbar background */
+.navbar-light.bg-light {
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease;
+}
+
+/* Change background to primary color when clicked */
+.navbar-clicked {
+    background-color: #007bff !important;
+}
+
+/* Adjust body padding for the fixed navbar */
+body {
+    padding-top: 70px;
+}
+
+/* Optional: Customize active link color for better visibility */
+.navbar-light .navbar-nav .nav-link.active {
+    color: #0056b3;
+}
 
