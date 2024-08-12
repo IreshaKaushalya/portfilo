@@ -273,6 +273,15 @@
 .navbar-toggler-icon {
     background-color: #ffffff; /* White color for toggler icon */
 }
-.navbar-brand{
-  color: #00B87B;
+
+/* Change color of the navbar-brand text */
+.navbar-light .navbar-brand {
+    color: #00B87B; /* Set the brand name color to white */
+    transition: color 0.3s ease;
 }
+
+/* Hover state for the brand name */
+.navbar-light .navbar-brand:hover {
+    color: #00B87B; /* Change the brand name color to primary on hover */
+}
+
