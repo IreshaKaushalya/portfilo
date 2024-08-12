@@ -266,7 +266,7 @@
 
 /* Active state: Change text color for the active link */
 .navbar-light .navbar-nav .nav-link.active {
-    color: #007bff; /* Primary color for active link */
+    color: #00B87B; /* Primary color for active link */
 }
 
 /* Toggler icon color */
