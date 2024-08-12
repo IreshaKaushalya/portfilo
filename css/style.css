@@ -253,4 +253,24 @@
   height: 100%;
   object-fit: cover; /* Ensure the image covers the container */
 }
+/* Default nav-link color */
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff; /* White color for text */
+    transition: color 0.3s ease;
+}
+
+/* Hover state: Change text color on hover */
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff; /* Primary color on hover */
+}
+
+/* Active state: Change text color for the active link */
+.navbar-light .navbar-nav .nav-link.active {
+    color: #007bff; /* Primary color for active link */
+}
+
+/* Toggler icon color */
+.navbar-toggler-icon {
+    background-color: #ffffff; /* White color for toggler icon */
+}
 
