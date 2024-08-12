@@ -273,4 +273,6 @@
 .navbar-toggler-icon {
     background-color: #ffffff; /* White color for toggler icon */
 }
-
+.navbar-brand{
+  color: #00B87B;
+}
